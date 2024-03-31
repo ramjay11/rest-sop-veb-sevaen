@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/rest-sop-veb-sevaen.iml" filepath="$PROJECT_DIR$/.idea/rest-sop-veb-sevaen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-saabun-dablyooes/spring-boot-saabun-dablyooes.iml" filepath="$PROJECT_DIR$/spring-boot-saabun-dablyooes/spring-boot-saabun-dablyooes.iml" />
+    </modules>
+  </component>
+</project>
