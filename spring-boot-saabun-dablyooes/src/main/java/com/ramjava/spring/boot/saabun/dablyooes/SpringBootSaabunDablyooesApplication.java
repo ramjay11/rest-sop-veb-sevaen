@@ -1,4 +1,4 @@
-package com.example.spring.boot.saabun.dablyooes;
+package com.ramjava.spring.boot.saabun.dablyooes;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

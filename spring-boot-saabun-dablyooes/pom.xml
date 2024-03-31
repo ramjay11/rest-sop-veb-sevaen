@@ -8,7 +8,7 @@
 		<version>2.1.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
+	<groupId>com.ramjava</groupId>
 	<artifactId>spring-boot-saabun-dablyooes</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-saabun-dablyooes</name>
@@ -45,10 +45,11 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<!-- Bind xsd -->
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>jaxb2-maven-plugin</artifactId>
-				<version>1.6</version>
+				<version>2.3.1</version>
 				<executions>
 					<execution>
 						<id>xjc</id>
@@ -58,9 +59,14 @@
 					</execution>
 				</executions>
 				<configuration>
-					<schemaDirectory>${project.basedir}/src/main/resources/</schemaDirectory>
-					<outputDirectory>${project.basedir}/src/main/java</outputDirectory>
-					<clearOutputDir>false</clearOutputDir>
+<!--					<schemaDirectory>${project.basedir}/src/main/resources/</schemaDirectory>-->
+<!--					<outputDirectory>${project.basedir}/src/main/java</outputDirectory>-->
+<!--					<clearOutputDir>true</clearOutputDir>-->
+					<schemaDirectory>G:/ProgrammingDocs/SpringIntelliJ/rest-sop-veb-sevaen/spring-boot-saabun-dablyooes/src/main/resources/</schemaDirectory>
+					<outputDirectory>G:/ProgrammingDocs/SpringIntelliJ/rest-sop-veb-sevaen/spring-boot-saabun-dablyooes/src/main/java</outputDirectory>
+					<clearOutputDir>true</clearOutputDir>
+<!--					<schemaDirectory>${project.basedir}/src/main/resources</schemaDirectory>-->
+<!--					<packageName>com.ramjava.generated</packageName>-->
 				</configuration>
 			</plugin>
 		</plugins>
