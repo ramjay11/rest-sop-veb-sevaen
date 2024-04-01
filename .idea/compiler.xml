@@ -6,15 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="saabun-praimar" />
         <module name="spring-boot-saabun-dablyooes" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="saabun-praimar" target="1.8" />
       <module name="spring-boot-saabun-dablyooes" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="saabun-praimar" options="" />
       <module name="spring-boot-saabun-dablyooes" options="-parameters" />
     </option>
   </component>

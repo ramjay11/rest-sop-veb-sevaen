@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/rest-sop-veb-sevaen.iml" filepath="$PROJECT_DIR$/.idea/rest-sop-veb-sevaen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/saabun-praimar/saabun-praimar.iml" filepath="$PROJECT_DIR$/saabun-praimar/saabun-praimar.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-saabun-dablyooes/spring-boot-saabun-dablyooes.iml" filepath="$PROJECT_DIR$/spring-boot-saabun-dablyooes/spring-boot-saabun-dablyooes.iml" />
     </modules>
   </component>

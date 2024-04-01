@@ -5,15 +5,17 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.1.4.RELEASE</version>
+		<version>1.5.10.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ramjava</groupId>
-	<artifactId>spring-boot-saabun-dablyooes</artifactId>
+	<artifactId>saabun-praimar</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-saabun-dablyooes</name>
-	<description>Demo project for Spring Boot</description>
+	<name>saabun-praimar</name>
+	<description>साबुन - प्राइमर</description>
 	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
@@ -23,23 +25,13 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-devtools</artifactId>
-			<scope>runtime</scope>
-			<optional>true</optional>
-		</dependency>
-		<dependency>
 			<groupId>wsdl4j</groupId>
 			<artifactId>wsdl4j</artifactId>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
@@ -56,7 +48,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<!-- Bind xsd -->
+
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>jaxb2-maven-plugin</artifactId>
@@ -70,14 +62,9 @@
 					</execution>
 				</executions>
 				<configuration>
-<!--					<schemaDirectory>${project.basedir}/src/main/resources/</schemaDirectory>-->
-<!--					<outputDirectory>${project.basedir}/src/main/java</outputDirectory>-->
-<!--					<clearOutputDir>true</clearOutputDir>-->
-					<schemaDirectory>G:/ProgrammingDocs/SpringIntelliJ/rest-sop-veb-sevaen/spring-boot-saabun-dablyooes/src/main/resources/</schemaDirectory>
-					<outputDirectory>G:/ProgrammingDocs/SpringIntelliJ/rest-sop-veb-sevaen/spring-boot-saabun-dablyooes/src/main/java</outputDirectory>
-					<clearOutputDir>true</clearOutputDir>
-<!--					<schemaDirectory>${project.basedir}/src/main/resources</schemaDirectory>-->
-<!--					<packageName>com.ramjava.generated</packageName>-->
+					<schemaDirectory>${project.basedir}/src/main/resources/</schemaDirectory>
+					<outputDirectory>${project.basedir}/src/main/java</outputDirectory>
+					<clearOutputDir>false</clearOutputDir>
 				</configuration>
 			</plugin>
 		</plugins>
